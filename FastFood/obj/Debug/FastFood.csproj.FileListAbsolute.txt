@@ -1,0 +1,10 @@
+C:\Users\DB\Desktop\Projeto_FastFood_com_Banco_de_Dados\FastFood\bin\Debug\FastFood.exe.config
+C:\Users\DB\Desktop\Projeto_FastFood_com_Banco_de_Dados\FastFood\bin\Debug\FastFood.exe
+C:\Users\DB\Desktop\Projeto_FastFood_com_Banco_de_Dados\FastFood\bin\Debug\FastFood.pdb
+C:\Users\DB\Desktop\Projeto_FastFood_com_Banco_de_Dados\FastFood\obj\Debug\FastFood.csproj.AssemblyReference.cache
+C:\Users\DB\Desktop\Projeto_FastFood_com_Banco_de_Dados\FastFood\obj\Debug\FastFood.Form1.resources
+C:\Users\DB\Desktop\Projeto_FastFood_com_Banco_de_Dados\FastFood\obj\Debug\FastFood.Properties.Resources.resources
+C:\Users\DB\Desktop\Projeto_FastFood_com_Banco_de_Dados\FastFood\obj\Debug\FastFood.csproj.GenerateResource.cache
+C:\Users\DB\Desktop\Projeto_FastFood_com_Banco_de_Dados\FastFood\obj\Debug\FastFood.csproj.CoreCompileInputs.cache
+C:\Users\DB\Desktop\Projeto_FastFood_com_Banco_de_Dados\FastFood\obj\Debug\FastFood.exe
+C:\Users\DB\Desktop\Projeto_FastFood_com_Banco_de_Dados\FastFood\obj\Debug\FastFood.pdb
