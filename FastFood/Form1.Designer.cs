@@ -42,7 +42,7 @@ namespace FastFood
             this.Lbl_Quarteirão = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_Texto = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.Btn_MacPedido = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -74,6 +74,7 @@ namespace FastFood
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox4
             // 
@@ -84,6 +85,7 @@ namespace FastFood
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox3
             // 
@@ -94,6 +96,7 @@ namespace FastFood
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox5
             // 
@@ -104,6 +107,7 @@ namespace FastFood
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 5;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox6
             // 
@@ -114,6 +118,7 @@ namespace FastFood
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 6;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox7
             // 
@@ -187,13 +192,13 @@ namespace FastFood
             this.label2.TabIndex = 14;
             this.label2.Text = "BIG MAC";
             // 
-            // textBox1
+            // txt_Texto
             // 
-            this.textBox1.Location = new System.Drawing.Point(378, 118);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(358, 151);
-            this.textBox1.TabIndex = 15;
+            this.txt_Texto.Location = new System.Drawing.Point(378, 118);
+            this.txt_Texto.Multiline = true;
+            this.txt_Texto.Name = "txt_Texto";
+            this.txt_Texto.Size = new System.Drawing.Size(358, 151);
+            this.txt_Texto.TabIndex = 15;
             // 
             // label3
             // 
@@ -218,6 +223,7 @@ namespace FastFood
             this.Btn_MacPedido.TabIndex = 17;
             this.Btn_MacPedido.Text = "MacPedido";
             this.Btn_MacPedido.UseVisualStyleBackColor = false;
+            this.Btn_MacPedido.Click += new System.EventHandler(this.Btn_MacPedido_Click);
             // 
             // Form1
             // 
@@ -228,7 +234,7 @@ namespace FastFood
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Btn_MacPedido);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_Texto);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Lbl_Quarteirão);
@@ -271,7 +277,7 @@ namespace FastFood
         private System.Windows.Forms.Label Lbl_Quarteirão;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_Texto;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button Btn_MacPedido;
     }
